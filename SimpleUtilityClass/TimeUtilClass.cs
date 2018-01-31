@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimpleUtilityClass
 {
-    class TimeUtilClass
+    static class TimeUtilClass
     {
         public static void PrintTime()
         { Console.WriteLine(DateTime.Now.ToShortTimeString()); }
